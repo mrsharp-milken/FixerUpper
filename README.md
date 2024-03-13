@@ -20,7 +20,7 @@ If you look in part_one.html you'll see a file of correct html that compiles. Ho
 * One closing tag on each line (a closing tag can be on the same line as its opening tag if there are no child elements)
 * Each child element is indented one tab space further than its parent.
 
-Once you think you've finished formatting this correctly, your IDE offers a great way for you to check your work. Go to Edit, Reformat Code, then select html format. Make sure you finish yourself **before** checking your work so you can develop your own intuition for this.
+Once you think you've finished formatting this correctly, [online HTML validators like this one](https://jsonformatter.org/html-validator) offer a great way for you to check your work. Paste in your code and click "Format HTML." Make sure you finish yourself **before** checking your work so you can develop your own intuition for this.
 
 
 ### Part Two: Fixing Bugs
@@ -38,7 +38,8 @@ In this section of the lab we'll be working in several files. You'll be looking 
   <!-- hmm this is better -->
   <p> Paragraph woooooo! </p>
   ```
-To find the missing tag, it may be helpful to go into edit, and then enable rulers so that you can more easily match up opening tags with their closing tags. If you use the same steps described above to reformat code in your IDE it will draw darker lines between opening and closing tags of parent elements (but not elements with no children, so don't solely depend on this), which may be helpful in your search.
+
+To give yourself additional tools to find the errors in this code consider using an [HTML validator](https://validator.w3.org/nu/#textarea). You can copy and paste in your html code and decipher to error messages provided when you try to validate it!
 
 **File Two: part_two_b.html**
   * This file has one missing closing tag, one missing opening tag, and has two incomplete tags. An incomplete tag could be either of the below options:
@@ -51,10 +52,7 @@ To find the missing tag, it may be helpful to go into edit, and then enable rule
   <!-- Or any other variety of these kinds of mistakes -->
   ```
 
-To give yourself additional tools to find the errors in this code consider using an HTML validator. Several are linked below, you can copy and paste in your html code and decipher to error messages provided when you try to validate it! On some of these you may need to select "direct input". Choose your favorite and try it out.
-* [Validator 1](https://jsonformatter.org/html-validator)
-* [Validator 2](https://validator.w3.org/nu/#textarea)
-* [Validator 3](http://www.htmlhelp.com/tools/validator/direct.html.en)
+You are welcome to use the HTML validator linked above to help with this file too!
 
 ### Part Three: Bringing it Together
 
