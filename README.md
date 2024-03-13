@@ -20,7 +20,7 @@ If you look in part_one.html you'll see a file of correct html that compiles. Ho
 * One closing tag on each line (a closing tag can be on the same line as its opening tag if there are no child elements)
 * Each child element is indented one tab space further than its parent.
 
-Once you think you've finished formatting this correctly, [online HTML validators like this one](https://jsonformatter.org/html-validator) offer a great way for you to check your work. Paste in your code and click "Format HTML." Make sure you finish yourself **before** checking your work so you can develop your own intuition for this.
+Once you think you've finished formatting this correctly, [online HTML formatters like this one](https://jsonformatter.org/html-validator) offer a great way for you to check your work. Paste in your code and click "Format HTML." Make sure you finish yourself **before** checking your work so you can develop your own intuition for this. 
 
 
 ### Part Two: Fixing Bugs
